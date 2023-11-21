@@ -14,10 +14,10 @@ const theme = createTheme({
       main: purple[500],
     },
     error: {
-      main: deepOrange[400],
+      main: "#800000",
     },
     info: {
-      main: teal[400],
+      main: "#FFFFFF",
     },
   },
 });

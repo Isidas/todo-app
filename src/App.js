@@ -24,12 +24,7 @@ const App = () => {
           >
             Добавить задачу
           </Button>
-          <Button
-            sx={{ m: 2 }}
-            color="secondary"
-            size="large"
-            variant="contained"
-          >
+          <Button sx={{ m: 2 }} color="error" size="large" variant="contained">
             Удалить задачу
           </Button>
         </Stack>

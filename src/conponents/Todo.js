@@ -1,6 +1,6 @@
 import { Typography, Stack, Button } from "@mui/material";
-import { red } from "@mui/material/colors";
-const color = red[500];
+// import { red } from "@mui/material/colors";
+const color = "#A9A9A9";
 
 const Todo = () => {
   return (
