@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { ThemeProvider, createTheme } from "@mui/material";
-import { purple } from "@mui/material/colors";
+import { purple, deepOrange, teal } from "@mui/material/colors";
 
 import App from "./App";
 
@@ -12,6 +12,12 @@ const theme = createTheme({
     },
     secondary: {
       main: purple[500],
+    },
+    error: {
+      main: deepOrange[400],
+    },
+    info: {
+      main: teal[400],
     },
   },
 });
