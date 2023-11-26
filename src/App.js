@@ -1,6 +1,8 @@
-import { Button, Typography, Stack, Input } from "@mui/material";
+import { Typography, Stack } from "@mui/material";
 
-import Todo from "./conponents/Todo";
+// import Todo from "./components/Todo";
+import Todo from "./components/Todo";
+import ChangeMenu from "./components/ChangeMenu";
 
 const App = () => {
   return (
@@ -8,30 +10,8 @@ const App = () => {
       <Typography variant="h2" align="center">
         ToDo App
       </Typography>
-      <Stack
-        alignItems="center"
-        direction="column"
-        justifyContent="center"
-        sx={{ mt: 2 }}
-      >
-        <Input fullWidth />
-        <Stack direction="row">
-          <Button
-            sx={{ m: 2 }}
-            color="primary"
-            size="large"
-            variant="contained"
-          >
-            Добавить задачу
-          </Button>
-          <Button sx={{ m: 2 }} color="error" size="large" variant="contained">
-            Удалить задачу
-          </Button>
-        </Stack>
-      </Stack>
+      <ChangeMenu />
       <Stack alignItems="center" justifyContent="center" sx={{ mt: 1 }}>
-        <Todo />
-        <Todo />
         <Todo />
       </Stack>
     </div>
